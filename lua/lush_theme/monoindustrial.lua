@@ -133,7 +133,7 @@ local theme = lush(function()
     Visual { bg = colors.carbon_darkest }, -- Visual mode selection
     VisualNOS { bg = colors.carbon_darker, fg = colors.steel_lighter }, -- Visual mode selection when vim is "Not Owning the Selection".
     WarningMsg { gui = "bold", bg = colors.steel_lighter, fg = colors.rust }, -- Warning messages
-    Whitespace { fg = colors.steel_lighter }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
+    Whitespace { fg = colors.steel_darker }, -- "nbsp", "space", "tab" and "trail" in 'listchars'
     -- Winseparator { }, -- Separator between window splits. Inherts from |hl-VertSplit| by default, which it will replace eventually.
     WildMenu { gui = "bold", bg = colors.steel, fg = colors.carbon_darker }, -- Current match in 'wildmenu' completion
 
