@@ -155,7 +155,7 @@ local theme = lush(function()
     Float { fg = colors.rust_lighter }, --   A floating point constant: 2.3e10
 
     Identifier { fg = colors.white }, -- (*) Any variable name
-    Function { fg = colors.iron }, --   Function name (also: methods for classes)
+    Function { fg = colors.steel }, --   Function name (also: methods for classes)
 
     Statement { fg = colors.steel }, -- (*) Any statement
     Conditional { fg = colors.iron }, --   if, then, else, endif, switch, etc.
@@ -291,7 +291,7 @@ local theme = lush(function()
     TSNote { gui = "italic", fg = colors.lapis }, -- Text representation of an informational note.
     -- TSWarning            { } , -- Text representation of a warning note.
     -- TSDanger             { } , -- Text representation of a danger note.
-    -- TSType               { } , -- Type (and class) definitions and annotations.
+    TSType { fg = colors.rust_lighter }, -- Type (and class) definitions and annotations.
     TSTypeBuiltin { fg = colors.rust }, -- Built-in types: `i32` in Rust.
     TSVariable { fg = colors.white }, -- Variable names that don't fit into other categories.
     TSVariableBuiltin { gui = "italic", fg = colors.lapis_lighter }, -- Variable names defined by the language: `this` or `self` in Javascript.
